@@ -17,9 +17,9 @@
 
 class PdoGsb{   		
       	private static $serveur='mysql:host=localhost';
-      	private static $bdd='dbname=gsb2';   		
-      	private static $user='root' ;      
-      	private static $mdp='' ;	
+      	private static $bdd='dbname=aleduc';   		
+      	private static $user='aleduc' ;      
+      	private static $mdp='ohj4oSie' ;	
 		private static $monPdo;
 		private static $monPdoGsb=null;
 /**
@@ -96,7 +96,7 @@ class PdoGsb{
     public function getVisiteursParDate($date){
         $req = "SELECT id, nom, prenom FROM utilisateur 
                 LEFT JOIN fichefrais ON fichefrais.idvisiteur = utilisateur.id 
-                WHERE idetat = 'CL' AND mois = :date";
+                WHERE idetat != 'VA' AND mois = :date";
         $rs = self::$monPdo->prepare($req);
         $rs->execute(['date' => $date]);
         return $rs->fetchAll(PDO::FETCH_OBJ);
@@ -411,7 +411,7 @@ class PdoGsb{
         $year = substr($mois, 0, 4);
 
         $moisSuivant = date('Ym', strtotime("$year-$month-01 + 1 month"));
-        if($moisDisponibles === $mois){
+        if($moisDisponibles === $mois || !$this->ficheExists($visiteur, $moisSuivant)){
             $this->creeNouvelleFicheFrais($visiteur, $moisSuivant);
         }
 
@@ -473,6 +473,18 @@ class PdoGsb{
         $q = self::$monPdo->prepare("SELECT libelle FROM puissance_vehicule WHERE id=:id");
         $q->execute(['id' => $id]);
         return $q->fetch()['libelle'];
+    }
+
+    /**
+     * @param $visiteur
+     * @param $mois
+     * @return bool
+     */
+    private function ficheExists($visiteur, $mois)
+    {
+        $q = self::$monPdo->prepare("SELECT * FROM fichefrais WHERE idvisiteur=:visiteur AND mois=:mois");
+        $q->execute(['visiteur' => $visiteur, 'mois' => $mois]);
+        return ($q->rowCount() > 0);
     }
 }
 ?>

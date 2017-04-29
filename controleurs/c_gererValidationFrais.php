@@ -22,14 +22,14 @@ switch($action){
         }
         if($part === "2"){
             $visiteurs = $pdo->getVisiteursParDate($_GET['lstmois']);
-            $lesInfosFicheFrais = $pdo->getLesInfosFicheFrais($_GET['lstvisiteurs'],$_GET['lstmois']); 
+        }
+        if(isset($_GET['lstvisiteurs'])){
+            $afficherFiche = true;
+            $lesInfosFicheFrais = $pdo->getLesInfosFicheFrais($_GET['lstvisiteurs'],$_GET['lstmois']);
             $libEtat = $lesInfosFicheFrais['libEtat'];
             $montantValide = $lesInfosFicheFrais['montantValide'];
             $dateModif =  $lesInfosFicheFrais['dateModif'];
             $dateModif =  dateAnglaisVersFrancais($dateModif);
-        }
-        if(isset($_GET['lstvisiteurs'])){
-            $afficherFiche = true;
             $fiche["forfait"] = $pdo->getLesFraisForfait($_GET['lstvisiteurs'], $_GET['lstmois']);
             $fiche["horsForfait"] = $pdo->getLesFraisHorsForfait($_GET['lstvisiteurs'], $_GET['lstmois']);
         }
