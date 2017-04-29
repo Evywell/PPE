@@ -14,25 +14,26 @@
  * @version    1.0
  * @link       http://www.php.net/manual/fr/book.pdo.php
  */
-
+require "constants.php";
 class PdoGsb{   		
-      	private static $serveur='mysql:host=localhost';
-      	private static $bdd='dbname=aleduc';   		
-      	private static $user='aleduc' ;      
-      	private static $mdp='ohj4oSie' ;	
-		private static $monPdo;
-		private static $monPdoGsb=null;
+      	private $serveur='mysql:host=localhost';
+      	protected $bdd='dbname=' . DBNAME;
+        protected $user=USER ;
+        protected $mdp=PASSWORD ;
+		protected static $monPdo;
+		protected static $monPdoGsb=null;
 /**
  * Constructeur privé, crée l'instance de PDO qui sera sollicitée
  * pour toutes les méthodes de la classe
  */				
-	private function __construct(){
-    	PdoGsb::$monPdo = new PDO(PdoGsb::$serveur.';'.PdoGsb::$bdd, PdoGsb::$user, PdoGsb::$mdp);
-        PdoGsb::$monPdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-		PdoGsb::$monPdo->query("SET CHARACTER SET utf8");
+	protected function __construct(){
+    	static::$monPdo = new PDO($this->serveur.';'.$this->bdd, $this->user, $this->mdp);
+        static::$monPdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        static::$monPdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
+        static::$monPdo->query("SET CHARACTER SET utf8");
 	}
 	public function _destruct(){
-		PdoGsb::$monPdo = null;
+        static::$monPdo = null;
 	}
 /**
  * Fonction statique qui crée l'unique instance de la classe
@@ -42,11 +43,19 @@ class PdoGsb{
  * @return l'unique objet de la classe PdoGsb
  */
 	public  static function getPdoGsb(){
-		if(PdoGsb::$monPdoGsb==null){
-			PdoGsb::$monPdoGsb= new PdoGsb();
+		if(static::$monPdoGsb==null){
+            static::$monPdoGsb= new PdoGsb();
 		}
-		return PdoGsb::$monPdoGsb;  
+		return static::$monPdoGsb;
 	}
+
+    /**
+     * @return PDO
+     */
+	public function getDb()
+    {
+        return static::$monPdo;
+    }
 /**
  * Retourne les informations d'un visiteur
  

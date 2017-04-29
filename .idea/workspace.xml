@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c9103564-67d9-4223-88c6-447266e565fa" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/constants.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpunit.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/ConnexionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/GestionFraisTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/LocalConnection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/class.pdogsb.inc.php" afterPath="$PROJECT_DIR$/include/class.pdogsb.inc.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="class.pdogsb.inc.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/class.pdogsb.inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="167" column="20" lean-forward="false" selection-start-line="167" selection-start-column="20" selection-end-line="167" selection-end-column="20" />
+              <folding>
+                <element signature="e#6#393#0#PHP" expanded="false" />
+                <marker date="1493471972207" expanded="true" signature="1848:2031" ph="select utili... utilisateur" />
+                <marker date="1493471972207" expanded="true" signature="2310:2421" ph="SELECT utili... utilisateur" />
+                <marker date="1493471972207" expanded="true" signature="2676:2762" ph="SELECT utili... utilisateur" />
+                <marker date="1493471972207" expanded="true" signature="3078:3252" ph="SELECT id, n... utilisateur" />
+                <marker date="1493471972207" expanded="true" signature="3899:4032" ph="select * fro... lignefraishorsforfait" />
+                <marker date="1493471972207" expanded="true" signature="4490:4555" ph="SELECT mois fichefrais" />
+                <marker date="1493471972207" expanded="true" signature="4882:5011" ph="select fiche... fichefrais" />
+                <marker date="1493471972207" expanded="true" signature="5449:5869" ph="select ligne... lignefraisforfait" />
+                <marker date="1493471972207" expanded="true" signature="6106:6182" ph="select frais... fraisforfait" />
+                <marker date="1493471972207" expanded="true" signature="6816:7024" ph="update ligne... " />
+                <marker date="1493471972207" expanded="true" signature="7327:7460" ph="update fiche... " />
+                <marker date="1493471972207" expanded="true" signature="7759:7884" ph="select count... fichefrais" />
+                <marker date="1493471972207" expanded="true" signature="8210:8301" ph="select max(m... fichefrais" />
+                <marker date="1493471972207" expanded="true" signature="9127:9261" ph="insert into fichefrais... " />
+                <marker date="1493471972207" expanded="true" signature="9435:9554" ph="insert into lignefraisforfait... " />
+                <marker date="1493471972207" expanded="true" signature="10068:10169" ph="insert into lignefraishorsforfait... " />
+                <marker date="1493471972207" expanded="true" signature="10365:10431" ph="delete from " />
+                <marker date="1493471972207" expanded="true" signature="10744:10867" ph="select fiche... fichefrais" />
+                <marker date="1493471972207" expanded="true" signature="11588:11917" ph="select fiche... fichefrais" />
+                <marker date="1493471972207" expanded="true" signature="12283:12416" ph="update fiche... " />
+                <marker date="1493471972207" expanded="true" signature="12729:12870" ph="SELECT DISTI... fichefrais" />
+                <marker date="1493471972207" expanded="true" signature="13244:13298" ph="SELECT libel... lignefraishorsforfait" />
+                <marker date="1493471972207" expanded="true" signature="13604:13666" ph="UPDATE ligne... " />
+                <marker date="1493471972207" expanded="true" signature="13965:14098" ph="INSERT INTO fichefrais... " />
+                <marker date="1493471972207" expanded="true" signature="14257:14283" ph="SELECT * FRO... fraisforfait" />
+                <marker date="1493471972207" expanded="true" signature="14392:14505" ph="INSERT INTO lignefraisforfait... " />
+                <marker date="1493471972207" expanded="true" signature="15583:15660" ph="UPDATE fiche... " />
+                <marker date="1493471972207" expanded="true" signature="15905:16031" ph="SELECT * FRO... fichefrais" />
+                <marker date="1493471972207" expanded="true" signature="16284:16363" ph="UPDATE fiche... " />
+                <marker date="1493471972207" expanded="true" signature="16604:16636" ph="SELECT * FRO... puissance_vehicule" />
+                <marker date="1493471972207" expanded="true" signature="16864:17006" ph="UPDATE ligne... " />
+                <marker date="1493471972207" expanded="true" signature="17263:17314" ph="SELECT libel... puissance_vehicule" />
+                <marker date="1493471972207" expanded="true" signature="17574:17640" ph="SELECT * FRO... fichefrais" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="c_gererValidationFrais.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controleurs/c_gererValidationFrais.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="676">
+              <caret line="40" column="41" lean-forward="true" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="v_listeMoisComptable.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vues/v_listeMoisComptable.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="75" column="36" lean-forward="false" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GestionFraisTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/GestionFraisTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="445">
+              <caret line="78" column="99" lean-forward="false" selection-start-line="78" selection-start-column="99" selection-end-line="78" selection-end-column="99" />
+              <folding>
+                <marker date="1493474418091" expanded="true" signature="1998:2063" ph="SELECT * FRO... lignefraisforfait" />
+                <marker date="1493474418091" expanded="true" signature="2922:2987" ph="SELECT * FRO... lignefraisforfait" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="constants.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/include/constants.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnexionTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/ConnexionTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="619">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>$dbb</find>
+      <find>actuali</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/tests/LocalConnection.php" />
+        <option value="$PROJECT_DIR$/phpunit.xml" />
+        <option value="$PROJECT_DIR$/include/class.pdogsb.inc.php" />
+        <option value="$PROJECT_DIR$/tests/ConnexionTest.php" />
+        <option value="$PROJECT_DIR$/tests/GestionFraisTest.php" />
+        <option value="$PROJECT_DIR$/include/constants.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PPE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PPE" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PPE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PPE" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PPE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PPE" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PPE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PPE" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controleurs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="C:/php/php.exe" />
+    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="js.eslint.eslintPackage" value="" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9103564-67d9-4223-88c6-447266e565fa" name="Default" comment="" />
+      <created>1493468595824</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1493468595824</updated>
+      <workItem from="1493468598328" duration="5962000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5962000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30577576" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/LocalConnection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/class.pdogsb.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="167" column="20" lean-forward="false" selection-start-line="167" selection-start-column="20" selection-end-line="167" selection-end-column="20" />
+          <folding>
+            <element signature="e#6#393#0#PHP" expanded="false" />
+            <marker date="1493471972207" expanded="true" signature="1848:2031" ph="select utili... utilisateur" />
+            <marker date="1493471972207" expanded="true" signature="2310:2421" ph="SELECT utili... utilisateur" />
+            <marker date="1493471972207" expanded="true" signature="2676:2762" ph="SELECT utili... utilisateur" />
+            <marker date="1493471972207" expanded="true" signature="3078:3252" ph="SELECT id, n... utilisateur" />
+            <marker date="1493471972207" expanded="true" signature="3899:4032" ph="select * fro... lignefraishorsforfait" />
+            <marker date="1493471972207" expanded="true" signature="4490:4555" ph="SELECT mois fichefrais" />
+            <marker date="1493471972207" expanded="true" signature="4882:5011" ph="select fiche... fichefrais" />
+            <marker date="1493471972207" expanded="true" signature="5449:5869" ph="select ligne... lignefraisforfait" />
+            <marker date="1493471972207" expanded="true" signature="6106:6182" ph="select frais... fraisforfait" />
+            <marker date="1493471972207" expanded="true" signature="6816:7024" ph="update ligne... " />
+            <marker date="1493471972207" expanded="true" signature="7327:7460" ph="update fiche... " />
+            <marker date="1493471972207" expanded="true" signature="7759:7884" ph="select count... fichefrais" />
+            <marker date="1493471972207" expanded="true" signature="8210:8301" ph="select max(m... fichefrais" />
+            <marker date="1493471972207" expanded="true" signature="9127:9261" ph="insert into fichefrais... " />
+            <marker date="1493471972207" expanded="true" signature="9435:9554" ph="insert into lignefraisforfait... " />
+            <marker date="1493471972207" expanded="true" signature="10068:10169" ph="insert into lignefraishorsforfait... " />
+            <marker date="1493471972207" expanded="true" signature="10365:10431" ph="delete from " />
+            <marker date="1493471972207" expanded="true" signature="10744:10867" ph="select fiche... fichefrais" />
+            <marker date="1493471972207" expanded="true" signature="11588:11917" ph="select fiche... fichefrais" />
+            <marker date="1493471972207" expanded="true" signature="12283:12416" ph="update fiche... " />
+            <marker date="1493471972207" expanded="true" signature="12729:12870" ph="SELECT DISTI... fichefrais" />
+            <marker date="1493471972207" expanded="true" signature="13244:13298" ph="SELECT libel... lignefraishorsforfait" />
+            <marker date="1493471972207" expanded="true" signature="13604:13666" ph="UPDATE ligne... " />
+            <marker date="1493471972207" expanded="true" signature="13965:14098" ph="INSERT INTO fichefrais... " />
+            <marker date="1493471972207" expanded="true" signature="14257:14283" ph="SELECT * FRO... fraisforfait" />
+            <marker date="1493471972207" expanded="true" signature="14392:14505" ph="INSERT INTO lignefraisforfait... " />
+            <marker date="1493471972207" expanded="true" signature="15583:15660" ph="UPDATE fiche... " />
+            <marker date="1493471972207" expanded="true" signature="15905:16031" ph="SELECT * FRO... fichefrais" />
+            <marker date="1493471972207" expanded="true" signature="16284:16363" ph="UPDATE fiche... " />
+            <marker date="1493471972207" expanded="true" signature="16604:16636" ph="SELECT * FRO... puissance_vehicule" />
+            <marker date="1493471972207" expanded="true" signature="16864:17006" ph="UPDATE ligne... " />
+            <marker date="1493471972207" expanded="true" signature="17263:17314" ph="SELECT libel... puissance_vehicule" />
+            <marker date="1493471972207" expanded="true" signature="17574:17640" ph="SELECT * FRO... fichefrais" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/ConnexionTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/v_listeMoisComptable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="75" column="36" lean-forward="false" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controleurs/c_gererValidationFrais.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="40" column="41" lean-forward="true" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/GestionFraisTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="78" column="99" lean-forward="false" selection-start-line="78" selection-start-column="99" selection-end-line="78" selection-end-column="99" />
+          <folding>
+            <marker date="1493474418091" expanded="true" signature="1998:2063" ph="SELECT * FRO... lignefraisforfait" />
+            <marker date="1493474418091" expanded="true" signature="2922:2987" ph="SELECT * FRO... lignefraisforfait" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/constants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
